@@ -1,0 +1,57 @@
+{
+  "name": "pf2e-ntal",
+  "title": "PF2e N'tal",
+  "description": "A module to implement the N'tal ancestry & associated options.",
+  "author": "Delioth",
+  "version": "1.0.0",
+  "compatibleCoreVersion": "9",
+  "minimumCoreVersion": "9",
+  "packs": [
+    {
+      "label": "N'tal - Ancestry",
+      "type": "Item",
+      "name": "ntal-ancestry",
+      "path": "./packs/ntal-ancestry.db",
+      "system": "pf2e",
+      "package": "pf2e-ntal",
+      "private": false
+    },
+    {
+      "label": "N'tal - Heritages",
+      "type": "Item",
+      "name": "ntal-heritages",
+      "path": "./packs/ntal-heritages.db",
+      "system": "pf2e",
+      "package": "pf2e-ntal",
+      "private": false
+    },
+    {
+      "label": "N'tal - Feats",
+      "type": "Item",
+      "name": "ntal-feats",
+      "path": "./packs/ntal-feats.db",
+      "system": "pf2e",
+      "package": "pf2e-ntal",
+      "private": false
+    }
+  ],
+  "flags": {
+    "pf2e-ntal": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "ntal": "N'tal"
+        },
+        "creatureTraits": {
+          "ntal": "N'tal"
+        }
+      }
+    }
+  },
+  "system": [
+    "pf2e"
+  ],
+  "url": "https://github.com/Delioth/foundry-pf2e-ntal",
+  "manifest": "https://raw.githubusercontent.com/Delioth/foundry-pf2e-ntal/main/module.json",
+  "download": "https://github.com/Delioth/foundry-pf2e-ntal/archive/refs/heads/main.zip",
+  "minimumSystemVersion": "3.8"
+}
